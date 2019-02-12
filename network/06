@@ -1,0 +1,2 @@
+le fichier qui fait la correspondance entre les adresses et les DNS est resolv.conf, il se trouve à:
+/etc/resolv.conf

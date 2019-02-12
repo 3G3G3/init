@@ -1,0 +1,8 @@
+network :
+02 - chercher ce que Broadcast
+
+05 : allez voir dans le resolv.conf s'il y a /16
+
+07 : appronfondir nslookup
+
+09 : ping ok, nslookup: laquelle est la public

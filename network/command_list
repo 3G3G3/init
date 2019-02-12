@@ -1,0 +1,27 @@
+			à éclaicir :
+- processus
+- services ou daemon: processus qui tourne en arrière plan de la machine
+- DNS
+
+			Commandes :
+- se logue à distance : ssh
+
+System
+- installer des packages : debian = apt
+- espace disque en cours d'utilisation : df
+- processus linux en cours d'utilisation : top
+- processus qui tournent : ps
+- tuer un processus : kill
+
+Reseau
+	commandes
+- affiche et configure les interfaces réseau de la machine: ifconfig
+- envoie un paquet vers un serveur : ping
+- affiche les connexion avec les ports sur le serveur utilisé : netstat
+- affiche le trajet du paquet : traceroute
+	fichier configuration
+- definit une ip à un nom : hosts
+- donne un nom à un réseau : networks
+- fichier qui dit qui résout quoi, i.e. fichier de config qui résout les noms de domaine ou bien si c'est bind à travers les serveurs DNS : host.conf
+- definit les serveurs de nom (DNS), quel serveur on utilise: resolve.conf
+- configure les interfaces système du réseau: interfaces

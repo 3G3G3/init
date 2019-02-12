@@ -1,0 +1,1 @@
+ping slash16.org -c 2 | sed -n '2p' | awk '{print $4}' | tr -d ':' | cat -e

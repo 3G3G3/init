@@ -1,0 +1,5 @@
+03
+networksetup -listallhardwareports
+
+04
+route : commande qui permet de travailler sur les tables de routages
