@@ -1,0 +1,4 @@
+echo '(a)'
+ifconfig en0 | grep broadcast | awk '{print $6}'
+echo '\n(b)'
+ping -c 4 10.12.255.255 | grep "64" | awk '{print $4}' | tr -d ':' | sort | uniq

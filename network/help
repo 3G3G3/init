@@ -3,3 +3,11 @@ networksetup -listallhardwareports
 
 04
 route : commande qui permet de travailler sur les tables de routages
+
+09
+nslookup slash16.org 8.8.8.8 |  sed -n '4,$p' | grep Address | awk '{print $2}'
+
+	System
+05 ne pas oublier d'ouvrir la connexion
+systemctl start ssh
+08 generer une clef avec ssh-keygen
