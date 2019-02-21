@@ -1,1 +1,2 @@
-le premier appareil est le gateway, qui sert d'interface entre le reseau local et l'exterieur
+l'appareil permettant de faire le lien entre l'exterieur est le NAT :
+nat-1 (10.60.1.11)
