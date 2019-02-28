@@ -1,1 +1,2 @@
-pkill -Kill -u $1
+skill -KILL -u $1
+deluser $1

@@ -1,0 +1,9 @@
+pour naviger entre les utilisateurs (se logue)
+su user
+
+pour voir qui est logué 
+
+who -a
+
+pour voir qui existe
+grep passwd /home
